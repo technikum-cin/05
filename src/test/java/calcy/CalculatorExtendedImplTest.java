@@ -10,13 +10,13 @@ public class CalculatorExtendedImplTest {
 	
 	@Test
 	public void testCorrectAddition() {
-		CalculatorSimpleImpl test = new CalculatorSimpleImpl();
+		CalculatorExtendedImpl test = new CalculatorExtendedImpl();
 		assertEquals(12,test.sum(6,6));
 	}
 	
 	@Test
 	public void testCorrectAdditionMoreNumbers() {
-		CalculatorSimpleImpl test = new CalculatorSimpleImpl();
+		CalculatorExtendedImpl test = new CalculatorExtendedImpl();
 		assertEquals(20,test.sum(2,2,2,2,2,2,2,2,2,2));
 	}
 	
